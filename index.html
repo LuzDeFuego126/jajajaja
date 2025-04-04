@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="https://pfst.cf2.poecdn.net/base/image/3558e229c54719e762d0fc47646bdda3af83e27912fdebc834036425135b8b4e?w=1024&h=768&pmaid=292389775">
+    <title>TENNIS WITH STYLE</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            background: #000000;
+            color: rgb(199, 160, 160);
+        }
+
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background: linear-gradient(to right, #820808, #33AEFF);
+            padding: 10px 20px;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 1000;
+        }
+
+        .navbar .logo {
+            font-size: 1.5rem;
+            font-weight: bold;
+            color: black;
+        }
+
+        .navbar .menu {
+            display: flex;
+        }
+
+        .navbar a {
+            color: black;
+            text-decoration: none;
+            padding: 10px 15px;
+        }
+
+        .navbar a:hover {
+            background: #003a7a;
+        }
+
+        .hero {
+            background: url(https://i.pinimg.com/originals/46/a2/7a/46a27ae5934fc70638a5ae267fe0028b.gif) no-repeat center center/cover;
+            height: 60vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            color: rgb(210, 21, 21);
+            text-align: center;
+        }
+
+        .hero h2 {
+            font-size: 3rem;
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+        }
+
+        .container1 {
+            max-width: 1200px;
+            margin: 2rem auto;
+            padding: 1rem;
+        }
+
+        .cards {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 1.5rem;
+        }
+
+        .card {
+            background: rgb(101, 40, 40);
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            transition: transform 0.3s;
+            text-align: center;
+        }
+
+        .card:hover {
+            transform: translateY(-10px);
+        }
+
+        .card img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+
+        .card h3 {
+            font-size: 1.5rem;
+            margin: 1rem;
+            color: rgb(0, 0, 0);
+        }
+
+        .card p {
+            margin: 0 1rem 1rem;
+            color: #666;
+        }
+
+        /* Quitar subrayado de los enlaces */
+        .card a {
+            text-decoration: none;
+            color: inherit;
+            display: block;
+        }
+
+        footer {
+            text-align: center;
+            padding: 1rem;
+            background: #333;
+            color: #fff;
+            margin-top: 2rem;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="logo"><img src="https://pfst.cf2.poecdn.net/base/image/3558e229c54719e762d0fc47646bdda3af83e27912fdebc834036425135b8b4e?w=1024&h=768&pmaid=292389775" height="50" width="50" alt=""></div>
+        <div class="logo">TENNIS WITH STYLE</div>
+        <div class="menu">
+            <a href="file:///C:/Users/sanch/OneDrive/Escritorio/Amazom%20sh/masproductos.html">Modelos</a>
+        </div>
+    </nav>
+
+    <section class="hero">
+        <h2>Bienvenido y disfruta </h2>
+    </section>
+
+    <div class="container1">
+        <header>
+            <h1 style="text-align: center;">Mas populares</h1>
+        </header>
+        <div class="cards">
+            <!-- Tarjeta 1 -->
+            <a href="file:///C:/Users/sanch/OneDrive/Escritorio/Amazom%20sh/productos1.html" class="card">
+                <img src="https://i.pinimg.com/736x/31/27/4a/31274aec424637134c74fcf2871828e0.jpg" alt="Jordan 1 Blanco con Gris">
+                <h3>JORDAN 1</h3>
+                <p>Blanco con gris.</p>
+            </a>
+
+            <!-- Tarjeta 2 -->
+            <a href="file:///C:/Users/sanch/OneDrive/Escritorio/Amazom%20sh/Producto2.html" class="card">
+                <img src="https://i.pinimg.com/736x/d1/ea/c0/d1eac04a35dc0624534a23baab688717.jpg" alt="Jordan 1 Negro con Blanco">
+                <h3>JORDAN 1</h3>
+                <p>Negro con blanco.</p>
+            </a>
+
+            <!-- Tarjeta 3 -->
+            <a href="file:///C:/Users/sanch/OneDrive/Escritorio/Amazom%20sh/Prdoducto3.html" class="card">
+                <img src="https://i.pinimg.com/736x/d6/74/d0/d674d0bdc6082f7ee0a7bbb7587b8960.jpg" alt="Jordan 1 Blanco con Negro">
+                <h3>JORDAN 1</h3>
+                <p>Blanco con negro.</p>
+            </a>
+        </div>
+    </div>
+</body>
+</html>
